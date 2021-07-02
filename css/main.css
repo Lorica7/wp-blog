@@ -1,0 +1,55 @@
+html {
+font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+.header-class {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title > h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #45ac9d;
+}
+
+.nav-list{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.nav-list > li {
+margin-right: 40px;
+}
+
+.container{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.post{
+    height: 200px;
+    width:200px;
+    background-color: green
+}
+
+.post-section{
+    display: flex;
+    flex-flow: column nowrap;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.widgets {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.widget4{
+     display: flex;
+    flex-flow: column nowrap;
+}

@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  margin: 3% 10%;
+  margin: 3% 12%;
   font-family: 'Open Sans';
 }
 
@@ -16,6 +16,13 @@ p {
   color: #45ac9d;
 }
 
+small {
+  color: #bfbfbf;
+}
+b {
+  color: black;
+}
+
 /*---------------------------Header----------------------------*/
 .header-class {
   display: flex;
@@ -23,10 +30,10 @@ p {
   justify-content: space-between;
   border-bottom: 1px solid #bfbfbf;
 }
-
+/* 
 .title {
   padding: 40px;
-}
+} */
 
 .title > h1 {
   font-family: 'Montserrat', sans-serif;
@@ -57,7 +64,7 @@ p {
   border-bottom: 1px solid #bfbfbf;
   padding-top: 40px;
   padding-bottom: 40px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
 }
 .post-title {
   font-family: 'Montserrat', sans-serif;
@@ -77,6 +84,14 @@ p {
   flex-flow: column nowrap;
   margin-right: 3.6%;
 }
+
+blockquote {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  word-spacing: 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
 /*--------------------------Widget----------------------------*/
 .widgets {
   display: flex;
@@ -110,8 +125,38 @@ p {
 .archives,
 .category {
   list-style: none;
+  line-height: 2rem;
 }
 
 .tag-list {
   padding: 0;
+}
+
+.events {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* =---------------------Footer Styles ------------------------------*/
+.footer-styles > li {
+  list-style: none;
+  display: flex;
+}
+
+.footer-styles {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.gray {
+  color: #bfbfbf;
+}
+.footer-item {
+  text-transform: uppercase;
+}
+
+footer {
+  border-top: 1px solid #bfbfbf;
+  border-bottom: 1px solid #bfbfbf;
 }

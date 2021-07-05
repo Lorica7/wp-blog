@@ -259,3 +259,39 @@ footer {
   padding-bottom: 20px;
   margin-top: 15px;
 }
+
+.leave-comment {
+  width: 60%;
+}
+
+.leave-comment h3 {
+  text-transform: uppercase;
+}
+
+.user-comment textarea {
+  width: 100%;
+  height: 180px;
+}
+
+.form-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  min-width: 250px;
+}
+
+div.user-email {
+  width: 50%;
+}
+
+.user-email input {
+  width: 95%;
+}
+
+div.user-name {
+  width: 50%;
+}
+
+.user-name input {
+  width: 95%;
+}

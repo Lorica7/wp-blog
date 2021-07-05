@@ -1,7 +1,11 @@
+/*----------------------------General Styles--------------------*/
 html {
   font-size: 16px;
 }
 
+p {
+  font-family: 'Open Sans';
+}
 body {
   margin: 3% 12%;
   font-family: 'Open Sans';
@@ -10,6 +14,7 @@ body {
 p {
   margin-top: 25px;
   line-height: 1.75rem;
+  font-weight: lighter;
 }
 
 .blue-text {
@@ -21,6 +26,15 @@ small {
 }
 b {
   color: black;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.social {
+  margin: 5px;
+  width: 5%;
 }
 
 /*---------------------------Header----------------------------*/
@@ -159,4 +173,89 @@ blockquote {
 footer {
   border-top: 1px solid #bfbfbf;
   border-bottom: 1px solid #bfbfbf;
+}
+
+/*-------------------------------------Landing Page -------------------------*/
+.landing {
+  background: url(../img/Skillcrush_Computer.png) no-repeat;
+  background-size: cover;
+}
+
+.intro {
+  width: 50%;
+  float: right;
+  padding: 5%;
+  background-color: white;
+}
+
+.intro > p {
+  line-height: 2.25rem;
+  margin-top: 40px;
+}
+
+.landing-btn {
+  width: 90%;
+  padding: 3%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.3rem;
+  outline: none;
+  border: none;
+  margin-top: 30px;
+}
+
+.landing-btn:hover {
+  cursor: pointer;
+}
+
+/*--------Posts and Single-Post ---------*/
+
+.single {
+  width: 60%;
+}
+
+.post-meta {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.single-comment {
+  border-bottom: 1px solid #bfbfbf;
+  width: 60%;
+}
+
+.comments {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px solid #bfbfbf;
+  width: 60%;
+  padding-bottom: 30px;
+}
+
+.comment-heading {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.heading-right > p {
+  display: inline-flex;
+  margin-left: 10px;
+}
+
+.heading-right > time {
+  display: inline-flex;
+}
+
+.a-tag-space {
+  margin-left: 15px;
+}
+
+.single > img {
+  width: 100%;
+}
+
+.single-comment > p {
+  padding-bottom: 20px;
+  margin-top: 15px;
 }
